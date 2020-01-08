@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="User Profile">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-success">Positive</a>
+                    <a href="/reviews/create" class="btn btn-success">Positive</a>
                     <a href="#" class="btn btn-secondary">Neutral</a>
                     <a href="#" class="btn btn-danger">Negative</a>
                 </div>

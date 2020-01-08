@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/userprofiles/{userprofile}', 'UserProfileController@show');
+Route::post('/userprofiles/{userprofile}/rate', 'UserProfileController@store')->middleware('auth');
+
+Route::resource('reviews', 'ReviewsController');
