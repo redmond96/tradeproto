@@ -23,7 +23,7 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
-        "ckeditor4": "^4.13.1",
+        "ckeditor4": "^4.16.2",
         "vue-star-rating": "^1.6.1"
     }
 }
